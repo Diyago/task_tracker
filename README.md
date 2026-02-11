@@ -34,6 +34,22 @@ npm run dev
 
 Open http://localhost:3000 to view the app.
 
+### Install via Conda/Pip-only permissions
+
+If you can only install software through `conda`/`pip`, use conda to get Node.js (which includes `npm`), then install project deps:
+
+```bash
+conda create -n kanban-node -y nodejs=20
+conda activate kanban-node
+npm install
+```
+
+Then run:
+
+```bash
+npm run dev
+```
+
 ## Scripts
 
 - `npm run dev` Start the dev server
