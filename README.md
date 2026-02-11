@@ -34,6 +34,28 @@ npm run dev
 
 Open http://localhost:3000 to view the app.
 
+## Run as PWA (Installable App)
+
+PWA is enabled only in production builds.
+
+1. Build:
+
+```bash
+npm run build
+```
+
+2. Start the production server:
+
+```bash
+npm run start
+```
+
+3. Open http://127.0.0.1:3000 in Chrome/Edge and click the Install icon in the address bar.
+
+Notes:
+- PWA is disabled in dev (`npm run dev`) by `next-pwa` to avoid cache issues.
+- The manifest is generated from `src/app/manifest.ts` and referenced in `src/app/layout.tsx`.
+
 ### Install via Conda/Pip-only permissions
 
 If you can only install software through `conda`/`pip`, use conda to get Node.js (which includes `npm`), then install project deps:
