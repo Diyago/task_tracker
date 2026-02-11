@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+  --card: 224 41% 12%;
+  --card-foreground: 210 40% 98%;
+  --popover: 224 41% 12%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 210 40% 98%;
+  --primary-foreground: 222 47% 11%;
+  --secondary: 217 28% 18%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217 28% 18%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 217 28% 18%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62% 46%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217 24% 22%;
+  --input: 217 24% 22%;
+  --ring: 215 20% 65%;
+  --radius: 12px;
+}
+
+.dark {
+  --background: 222 47% 9%;
+  --foreground: 210 40% 98%;
+  --card: 224 41% 11%;
+  --card-foreground: 210 40% 98%;
+  --popover: 224 41% 11%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 210 40% 98%;
+  --primary-foreground: 222 47% 9%;
+  --secondary: 217 30% 16%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217 30% 16%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 217 30% 16%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62% 46%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217 24% 22%;
+  --input: 217 24% 22%;
+  --ring: 215 20% 65%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+code,
+pre {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, monospace;
+}
