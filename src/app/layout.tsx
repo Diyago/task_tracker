@@ -17,7 +17,21 @@ const jetBrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Задачи",
-  description: "Задачи"
+  description: "Задачи",
+  manifest: "/manifest.webmanifest",
+  themeColor: "#0f172a",
+  icons: {
+    icon: [
+      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" }
+    ],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }]
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Задачи"
+  }
 };
 
 export default function RootLayout({
