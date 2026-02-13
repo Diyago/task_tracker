@@ -2,6 +2,9 @@
 
 A hybrid kanban board tailored for data science leads. It separates strategic work, planned work, urgent focus, and operational noise while tracking due dates and workload totals.
 
+<img width="1064" height="722" alt="image" src="https://github.com/user-attachments/assets/e9ee1074-261d-4ea4-beb8-3c7a30d20c67" />
+
+
 ## Features
 
 - Drag and drop tasks across columns
